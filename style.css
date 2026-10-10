@@ -1,0 +1,46 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.array_item{
+    margin: 5px;
+    font-size: large;
+    border: 2px solid black;
+    padding: 10px;
+}
+button{
+    background-color: blanchedalmond;
+    font-size: medium;
+}
+
+#array{
+    border: 4px dotted blue;
+    display:flex;
+    
+
+}
+input[type="number"] {
+    padding: 1%;
+    font-size: 1rem;
+    border: 2px solid pink;
+}
+
+@media screen and (max-width: 480px) {
+    input[type="number"] {
+        padding: 1%;
+        font-size: 1rem;
+        border: 2px solid pink;
+        width: 60%;
+      
+    }
+    button{
+        background-color: blanchedalmond;
+        font-size: medium;
+        width: 50%;
+       
+    }
+}
